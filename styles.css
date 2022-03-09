@@ -1,0 +1,120 @@
+/* https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body{ 
+    font-family: Geneva, Verdana, sans-serif;
+    background-color: #161A1D;
+}
+
+h1, h2, h3, h4, h5, h6{ 
+    font-family: Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+table, th, td {
+    border: 1px solid #0B090A;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#mainHeading {
+    display:block;
+    width:100%;
+}
+
+#accordion {
+    margin-top: 5px;
+}
+
+#cv {
+	width: 80%;
+	background: #B1A7A6;
+	margin: auto;
+}
+
+#profilePicture {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+#name {
+    float: left;
+    vertical-align: sub;
+    color: #BA181B
+}
+
+#name h1 {
+    font-size: 2.5em;
+	font-weight: 700;
+	font-family: Helvetica;
+    margin-top: 50px;
+	margin-bottom: -25px;
+}
+
+#name h2 {
+    font-size: 2em;
+	font-family: Helvetica;
+    margin-left: 5px;
+}
+
+/* #adventurer {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-bottom: 18px;
+} */
+
+/* #isfp-t {
+    width: 40%;
+    float: right;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+} */
+
+.collapsible {
+    background-color: #BA181B;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #B1A7A6;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+}
+  
+.active, .collapsible:hover {
+    background-color: #A4161A;
+}
+  
+.collapsible:after {
+    content: '\002B';
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+}
+
+.centering {
+    width: 60%;
+    margin: auto;
+}
