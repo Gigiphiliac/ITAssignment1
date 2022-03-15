@@ -28,3 +28,16 @@ function hidePanels() {
   }
 
 
+function changeLogo(){
+    var img = document.getElementById("pic");
+    if (img.src.endsWith("canva_logo.png") == true) { 
+        document.getElementById("pic").src = "paint_logo.png";
+        return;
+    }
+    if (document.getElementById("pic").src.endsWith("paint_logo.png") == true) { 
+        document.getElementById("pic").src = "canva_logo.png"; 
+        return;
+    }
+}
+    
+

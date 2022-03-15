@@ -1,4 +1,5 @@
 /* https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff */
+/* #FF9F00 */
 
 ::-webkit-scrollbar {
     width: 0;
@@ -20,31 +21,27 @@ table, th, td {
     padding: 5px;
 }
 
-#mainHeading {
-    display:block;
-    width:100%;
-}
-
 #accordion {
     margin-top: 5px;
 }
 
-#cv {
-	width: 80%;
-	background: #B1A7A6;
-	margin: auto;
+#mainHeading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #profilePicture {
     width: 20%;
     float: left;
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
-#name {
+#logo {
+    width: 30%;
     float: left;
-    vertical-align: sub;
-    color: #BA181B
+    vertical-align: middle;
 }
 
 #name h1 {
@@ -82,7 +79,7 @@ table, th, td {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: 1px solid #B1A7A6;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     text-align: left;
     outline: none;
@@ -115,6 +112,6 @@ table, th, td {
 }
 
 .centering {
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
