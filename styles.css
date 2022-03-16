@@ -41,7 +41,7 @@ table, th, td {
 #logo {
     width: 30%;
     float: left;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 #name h1 {
