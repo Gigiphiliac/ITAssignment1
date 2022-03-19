@@ -53,6 +53,9 @@
             </div>
             <button class="collapsible">&#128151 Interest in IT &#128151</button>
             <div class="content">
+                <div style="display: flex; width: 45%; height: 100%; float: right; padding-top: 18px; padding-bottom: 18px; margin-left: 10px">
+                    <img src="AdobeStock_282753146.jpeg" alt="IT Image" width=100% height=100% style="border: 1px solid #0B090A; border-radius: 5px;">
+                </div>
                 <p>
                     <h3>What is your interest in IT?</h3>My main interest in IT is the programming and troubleshooting side. Solving my own, or other people's, problems is something I quite enjoy. The satisfaction of creating solutions has motivated me to pursue this degree in the hopes of doing it as my job one day.<br>
                     <h3>Was there a particular event or person that sparked your interest?</h3>My father is a graphic designer, my uncle is an animator, and many friends and relatives are avid gamers. Growing up with this exposure to technology got me invested in it from early. Throughout school, I had a passion for any and all STEM classes which also helped me discover and explore my interests.<br>
@@ -163,14 +166,80 @@
             </div>
             <button class="collapsible">&#128161 Project Idea &#128161</button>
             <div class="content">
-                <p>
-                    Rocket league bot <br>
-                    Overview (100 words)  <br>
-                    Motivation (100 words) <br>
-                    Description (500 words) <br>
-                    Tools and Technologies (100 words) <br>
-                    Skills Required (100 words) <br>
-                    Outcome (100 words)
+                <div style="display: flex; width: 40%; height: 100%; float: right; padding-top: 18px; padding-bottom: 18px;">
+                    <img src="rlbotgui.jpg" alt="RLBotGUI" width=100% height=100% style="border: 1px solid #0B090A; border-radius: 5px;">
+                </div> 
+                <p style="height: 100%;">
+                    <h3>Overview</h3>
+                    Rocket League is a car soccer game developed by Psyonix LLC that is easy to pick up and play, but 
+                    incredibly difficult to master. I would like to build a bot that is able to play the game at a level
+                    much higher than the bots that come built into it. The bot will be hard coded using Python and will
+                    respond to certain situations in such a way that makes it much more mechanically consistent than 
+                    humans. Once created and hosted on GitHub, the bot will be entered into a tournament in which 
+                    other bots created in the community battle it out for the title of best Rocket League bot.
+
+                    <h3>Motivation</h3>
+                    I've been playing Rocket League since 2018, and in that time I've made it into the top 1% of players
+                    rank wise. Along with this I've noticed a massive discrepancy between the highest difficulty of 
+                    bots and top human player abilities. I've always wondered when a bot that can pose a challenge to 
+                    the best of players will be implemented into the game, but after six years, we haven't seen one. 
+                    Because of this, I would like to have a go at solving this issue myself, and in the process having
+                    fun experimenting with the Rocket League API. As this is just a passion project, I don't expect 
+                    big things to come from it, but I'm always optimistic that the bot-building scene will bring this
+                    issue to Psyonix' attention.
+
+                    <h3>Description</h3>
+                    RLBot is a community organisation that builds and collaborates on bots through GitHub. The group has
+                    set up a <a href="https://rlbot.org/">website</a> that contains links to various GitHub repositories
+                    each with support for specific languages. This includes Scratch, Javascript, Python, Rust, Go, C++, 
+                    and even an environment for building a machine learning bot. Generally, I would like to make a bot 
+                    that is better than the current ones in the live game. This would mean that players at a higher 
+                    skill level would be able to play with the bots while actually having a challenge. The more specific
+                    goal would be to have a bot that not only was competent on the field mechanically, but also worked 
+                    well as a teammate. Being able to recognise the trajectory and velocity of teammates and passing the
+                    ball perfectly is something that high level players do all the time, but lower ranks don't and this 
+                    means that these players aren't actually learning how to work with passes. Therefore, not only would
+                    a teamplaying bot be a formidable opponent, but also a valuable training tool. 
+                    <br><br>
+                    The bot will need to interact with Rocket League's physics engine in order to keep up with the game,
+                    make predictions regarding the ball's trajectory, and be able to move efficiently in general. 
+                    Managing boost, powersliding, and conserving momentum are vital gameplay elements that are going to
+                    be difficult to teach a bot, but are a necessity. Once the bot is able to understand the flow of the
+                    game, I can begin adding specifics such as situational analysis. This will allow the bot to make 
+                    choices depending on the circumstances in order to maximise its value on the field. For example, 
+                    passing to an open teammate and shadow-defending (shadowing opponent movements to tackle at the 
+                    optimal time) would be a priority over diving right in and trying to smack the ball away.
+
+                    <h3>Tools and Technologies</h3>
+                    The Rocket League bot community is definitely a niche one, but there are still a lot of dedicated 
+                    people contributing to the open-source project via GitHub. The software involved in building a bot include:
+                    <ul>
+                        <li>Code editor (I'll use VSCode)</li>
+                        <li>Rocket League (Epic Games or Steam)</li>
+                        <li>RLBotGUI</li>
+                        <li>Programming language (I'll use Python)</li>
+                    </ul>
+                    The code editor and language allow me to write and interact with the code that is going to make the 
+                    bot operate. Rocket League is obviously the game that the bot is being made to play. RLBotGUI is a 
+                    desktop application that allows the user to manage their own or existing community bots, or add bots
+                    into an offline match for testing purposes.
+
+                    <h3>Skills Required</h3>
+                    Almost all of the software is open-source and easily accessible. The only thing I'll have to do is 
+                    program the bot and test it in-game. Obviously, this is easier said than done. The testing part is 
+                    very streamlined through the RLBotGUI application, although the programming aspect will be extremely
+                    tedious especially since I've never coded a bot before. Thankfully, I won't be suffering alone as 
+                    there is a plethora of RLBot community support for Python. My programming skills are by no means 
+                    beginner, however jumping into something so new will take a lot of time and focus. I expect to 
+                    build my skills by watching tutorials made specifically for a Python RLBot, then adapting that 
+                    knowledge to suit my purpose.
+
+                    <h3>Outcome</h3>
+                    If successful, I will have programmed a bot that is able to perform mechanics in-game more 
+                    consistently than any human player could possibly achieve and act as a perfect teammate. When 
+                    tweaked to fit certain criteria, the bot's skill level can be dialled to match that of different
+                    ranks, effectively diversifying the choice of bot skill in game. This development will allow offline
+                    players to use bot games as a means of improvement, rather than a useless opponent.
                 </p>
             </div>
             <button class="collapsible">&#128214 References &#128214</button>
@@ -178,7 +247,7 @@
                 <p>
                     <a href="https://www.16personalities.com/isfp-careers"><b>Career Paths | Adventurer (ISFP) Personality | 16Personalities</b> <i>Accessed: [07/03/22]</i></a><br>
                     <a href="https://personalitymax.com/report/?ls=67-44-67&name_key=af97f3e560"><b>Clayton Phillips's Personality Max™ Report</b> <i>Accessed: [07/03/22]</i></a><br>
-                    <a href="https://psychologia.co/creativity-test/"><b>Creativity Test: Curiosity, Imagination, Complexity, Risk Tolerance | Psychologia</b> <i>Accessed: [07/03/22]</i></a>><br>
+                    <a href="https://psychologia.co/creativity-test/"><b>Creativity Test: Curiosity, Imagination, Complexity, Risk Tolerance | Psychologia</b> <i>Accessed: [07/03/22]</i></a><br>
                 </p>
             </div>
         </div>
